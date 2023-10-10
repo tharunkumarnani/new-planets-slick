@@ -14,7 +14,7 @@ const PlanetsSlider = props => {
     slidesToScroll: 1,
   }
   return (
-    <div className="slider-container">
+    <div data-testid="planets" className="slider-container">
       <h1 className="heading">PLANETS</h1>
       <Slider {...settings}>
         {planetsList.map(each => (
